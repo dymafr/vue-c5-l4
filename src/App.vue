@@ -1,14 +1,14 @@
 <template>
-  <h1 :style="[{ fontSize: fontSize + 'px' }, color]">Bonjour le monde !</h1>
-  <button @click="fontSize += 10">Grossir</button>
-  <button @click="fontSize -= 10">Réduire</button>
+  <h1><span>Bonjour</span> le monde !</h1>
 </template>
 
-<script setup lang="ts">
-import { ref } from 'vue';
+<script setup lang="ts"></script>
 
-const fontSize = ref(20);
-const color = ref('color: red');
-</script>
-
-<style scoped></style>
+<style scoped lang="scss">
+h1 {
+  color: 'red';
+  span {
+    color: 'blue';
+  }
+}
+</style>
