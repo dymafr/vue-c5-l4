@@ -6,9 +6,9 @@
 
 <style scoped lang="scss">
 h1 {
-  color: 'red';
+  color: red;
   span {
-    color: 'blue';
+    color: blue;
   }
 }
 </style>
